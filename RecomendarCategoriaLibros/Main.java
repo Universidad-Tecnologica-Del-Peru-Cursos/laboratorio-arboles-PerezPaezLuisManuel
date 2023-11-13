@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Arbol arbol = new Arbol();
 
-        // Crear preguntas y categorías
+        // Crear preguntas y categorías ss
         NodoArbol raiz = new NodoArbol(new Pregunta(1, "¿Prefieres ficción sobre realidad?"));
         
         NodoArbol nodoFiccion = new NodoArbol(new Pregunta(2, "¿Te gustan las historias de otro mundo?"));
